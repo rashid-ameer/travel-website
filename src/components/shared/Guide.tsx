@@ -20,13 +20,21 @@ function Guide() {
         </div>
       </div>
 
-      <div className="mt-20 p-10 guide-bg w-full aspect-[3] overflow-hidden 2xl:rounded-2xl 2xl:container">
-        <div className="rounded-2xl px-5 py-8 flex gap-4 bg-white w-fit">
+      <div className="relative mt-20 2xl:rounded-2xl 2xl:container">
+        <Image
+          className="w-full aspect-[2.62]"
+          src="/images/boat.png"
+          alt="boat"
+          width={1000}
+          height={380}
+        />
+        <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 md:translate-x-0 md:translate-y-0 md:top-10 md:left-10 lg:top-20 lg:left-20 z-10 rounded-2xl pl-5 pr-7 py-8 w-[280px] flex gap-4 bg-white mx-auto md:mx-0 shadow-[0_0_10px_rgba(0,0,0,0.2)]">
           <Image
             src="/images/meter.svg"
             alt=""
             width={26}
             height={167}
+            loading="lazy"
           />
 
           <div className="flex-1 flex flex-col justify-between">

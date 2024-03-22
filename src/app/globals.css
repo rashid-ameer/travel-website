@@ -15,9 +15,4 @@
   .feature-pattern {
     background-image: url(/images/feature-bg.png);
   }
-
-  .guide-bg {
-    @apply bg-no-repeat bg-center bg-cover;
-    background-image: url(/images/boat.png);
-  }
 }
