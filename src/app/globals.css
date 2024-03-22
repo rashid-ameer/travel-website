@@ -7,8 +7,12 @@
     @apply absolute bottom-0 right-0 xl:bottom-24 xl:-right-36 w-full h-full -z-10;
     content: "";
     background-image: url(/images/pattern-bg.png);
-    background-position: 60% bottom;
-    background-repeat: no-repeat;
+    background-position: 60% 100%;
+    background-repeat: no-repeat bottom;
     background-size: cover;
+  }
+
+  .feature-pattern {
+    background-image: url(/images/feature-bg.png);
   }
 }
