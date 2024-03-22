@@ -7,7 +7,7 @@ import StyledTitle from "./StyledTitle";
 
 function Hero() {
   return (
-    <div className="container flex flex-col xl:flex-row gap-24 py-10 items-stretch relative hero-map">
+    <div className="container flex flex-col xl:flex-row gap-24 py-10 items-stretch overflow-hidden relative hero-map">
       {/* hero left section */}
       <div className="flex-1 py-5 space-y-5">
         <StyledTitle>

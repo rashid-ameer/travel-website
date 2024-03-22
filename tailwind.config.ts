@@ -7,9 +7,11 @@ const config = {
   theme: {
     container: {
       center: true,
-      padding: "2rem",
-      screens: {
-        "2xl": "1600px",
+      padding: {
+        DEFAULT: "2rem",
+        lg: "3rem",
+        xl: "4rem",
+        "2xl": "6rem",
       },
     },
     colors: {
