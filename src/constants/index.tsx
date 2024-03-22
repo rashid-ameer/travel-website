@@ -36,3 +36,34 @@ export const featuresData = [
     component: "location",
   },
 ];
+
+export const footerLinks = [
+  {
+    id: 1,
+    name: "Learn More",
+    links: [
+      { id: 1, name: "About HiLink", url: "/" },
+      { id: 2, name: "Press Release", url: "/" },
+      { id: 3, name: "Environment", url: "/" },
+      { id: 4, name: "Jobs", url: "/" },
+      { id: 5, name: "Privacy Policy", url: "/" },
+      { id: 6, name: "Contact Us", url: "/" },
+    ],
+  },
+  {
+    id: 2,
+    name: "Our Community",
+    links: [
+      { id: 1, name: "Climbing xixixi", url: "/" },
+      { id: 2, name: "Hiking hilink", url: "/" },
+      { id: 3, name: "Hilink kinthill", url: "/" },
+    ],
+  },
+];
+
+export const footerSocialLinks = [
+  { id: 1, name: "facebook" },
+  { id: 2, name: "twitter" },
+  { id: 3, name: "instagram" },
+  { id: 4, name: "youtube" },
+];
