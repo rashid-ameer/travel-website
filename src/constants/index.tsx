@@ -1,4 +1,4 @@
-export const navLinks = [
+export const NAV_LINKS = [
   { id: 1, name: "Home", url: "/" },
   { id: 2, name: "How it works?", url: "/" },
   { id: 3, name: "Services", url: "/" },
@@ -6,7 +6,7 @@ export const navLinks = [
   { id: 5, name: "Contact us", url: "/" },
 ];
 
-export const featuresData = [
+export const FEATURES_DATA = [
   {
     id: 1,
     name: "Real maps can be offline",
@@ -37,7 +37,7 @@ export const featuresData = [
   },
 ];
 
-export const footerLinks = [
+export const FOOTER_LINKS = [
   {
     id: 1,
     name: "Learn More",
@@ -61,9 +61,43 @@ export const footerLinks = [
   },
 ];
 
-export const footerSocialLinks = [
+export const FOOTER_SOCIAL_LINKS = [
   { id: 1, name: "facebook" },
   { id: 2, name: "twitter" },
   { id: 3, name: "instagram" },
   { id: 4, name: "youtube" },
+];
+
+export const PEOPLE_URL = [
+  "/images/person-1.png",
+  "/images/person-2.png",
+  "/images/person-3.png",
+  "/images/person-4.png",
+];
+
+export const CAMP_SITES = [
+  {
+    id: 1,
+    name: "Putuk Truno Camp",
+    location: "Prigen, Pasuruan",
+    img: "/images/img-1.png",
+  },
+  {
+    id: 2,
+    name: "Mountain View Camp",
+    location: "Somewhere in wilderness",
+    img: "/images/img-2.png",
+  },
+  {
+    id: 3,
+    name: "Putuk Truno Camp",
+    location: "Prigen, Pasuruan",
+    img: "/images/img-1.png",
+  },
+  {
+    id: 4,
+    name: "Mountain View Camp",
+    location: "Somewhere in wilderness",
+    img: "/images/img-2.png",
+  },
 ];

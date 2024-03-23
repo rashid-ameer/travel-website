@@ -1,5 +1,5 @@
 "use client";
-import { navLinks } from "@/constants";
+import { NAV_LINKS } from "@/constants";
 import Link from "next/link";
 import { IoClose } from "react-icons/io5";
 import { Button } from "../ui/button";
@@ -24,7 +24,7 @@ function Navbar({ setIsSidebarOpen, isSidebarOpen }: NavbarProps) {
       </Button>
 
       <ul className="mt-4 md:mt-0 flex flex-col md:flex-row gap-3">
-        {navLinks.map((navLink) => (
+        {NAV_LINKS.map((navLink) => (
           <li key={navLink.id}>
             <Link
               className="whitespace-nowrap px-2 py-2 text-sm 2xl:text-base font-medium hover:text-green-100 text-gray-400 transition-colors "

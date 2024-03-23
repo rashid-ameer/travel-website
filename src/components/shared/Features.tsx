@@ -4,7 +4,7 @@ import { FaMap } from "react-icons/fa";
 import { FaRegCalendarDays } from "react-icons/fa6";
 import { FaLocationDot } from "react-icons/fa6";
 import { TbTriangleFilled } from "react-icons/tb";
-import { featuresData } from "@/constants";
+import { FEATURES_DATA } from "@/constants";
 import Feature from "./Feature";
 
 function Features() {
@@ -37,7 +37,7 @@ function Features() {
           </StyledTitle>
 
           <div className="mt-8 grid md:grid-cols-2 gap-10">
-            {featuresData.map((feature) => (
+            {FEATURES_DATA.map((feature) => (
               <Feature
                 key={feature.id}
                 name={feature.name}

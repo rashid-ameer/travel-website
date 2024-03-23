@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { footerLinks, footerSocialLinks } from "@/constants";
+import { FOOTER_LINKS, FOOTER_SOCIAL_LINKS } from "@/constants";
 import FooterLink from "./FooterLink";
 import { FaFacebookF, FaTwitter, FaInstagram, FaYoutube } from "react-icons/fa";
 
@@ -23,7 +23,7 @@ function Footer() {
           />
         </a>
         <div className="flex flex-wrap justify-between gap-y-5 gap-x-5">
-          {footerLinks.map((footerLink) => (
+          {FOOTER_LINKS.map((footerLink) => (
             <FooterLink
               key={footerLink.id}
               footerLink={footerLink}
@@ -48,7 +48,7 @@ function Footer() {
           <div className="space-y-3">
             <h2 className="text-dark text-xl font-bold">Social</h2>
             <div className="flex items-center gap-4">
-              {footerSocialLinks.map((footerSocialLink) => (
+              {FOOTER_SOCIAL_LINKS.map((footerSocialLink) => (
                 <a
                   href="/"
                   key={footerSocialLink.id}>
@@ -59,7 +59,7 @@ function Footer() {
           </div>
         </div>
         <hr className="border-2 rounded-full border-gray-100" />
-        <p className="py-4 text-center">2023 Hilink | All rights reserved</p>
+        <p className="py-4 text-center text-sm xl:text-base">2023 Hilink | All rights reserved</p>
       </div>
     </footer>
   );
