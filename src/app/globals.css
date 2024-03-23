@@ -15,4 +15,9 @@
   .feature-pattern {
     background-image: url(/images/feature-bg.png);
   }
+
+  .get-app-pattern {
+    @apply bg-no-repeat bg-center bg-cover bg-gray-600;
+    background-image: url(/images/pattern.png);
+  }
 }

@@ -8,7 +8,7 @@ const config = {
     container: {
       center: true,
       padding: {
-        DEFAULT: "2rem",
+        DEFAULT: "1.5rem",
         lg: "3rem",
         xl: "4rem",
         "2xl": "6rem",
@@ -48,6 +48,9 @@ const config = {
       "8xl": ["5.5rem", "1.2"],
     },
     extend: {
+      screens: {
+        "2xl": "1400px",
+      },
       keyframes: {
         "accordion-down": {
           from: { height: "0" },

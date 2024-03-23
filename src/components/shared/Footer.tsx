@@ -59,7 +59,7 @@ function Footer() {
           </div>
         </div>
         <hr className="border-2 rounded-full border-gray-100" />
-        <p className="py-10 text-center">2023 Hilink | All rights reserved</p>
+        <p className="py-4 text-center">2023 Hilink | All rights reserved</p>
       </div>
     </footer>
   );
