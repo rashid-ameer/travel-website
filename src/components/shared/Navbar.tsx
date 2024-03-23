@@ -23,11 +23,11 @@ function Navbar({ setIsSidebarOpen, isSidebarOpen }: NavbarProps) {
         <IoClose className="size-6" />
       </Button>
 
-      <ul className="mt-4 md:mt-0 flex flex-col md:flex-row gap-3">
+      <ul className="mt-4 md:mt-0 flex flex-col md:flex-row gap-y-5 gap-x-3">
         {NAV_LINKS.map((navLink) => (
           <li key={navLink.id}>
             <Link
-              className="whitespace-nowrap px-2 py-2 text-sm 2xl:text-base font-medium hover:text-green-100 text-gray-400 transition-colors "
+              className="whitespace-nowrap px-2 py-2 text-base md:text-sm 2xl:text-base font-medium hover:text-green-100 text-gray-400 transition-colors "
               href={navLink.url}>
               {navLink.name}
             </Link>
