@@ -22,7 +22,7 @@ function Footer() {
             height={20}
           />
         </a>
-        <div className="flex flex-wrap justify-between gap-y-5 gap-x-5">
+        <div className="text-md flex flex-wrap justify-between gap-y-5 gap-x-5">
           {FOOTER_LINKS.map((footerLink) => (
             <FooterLink
               key={footerLink.id}

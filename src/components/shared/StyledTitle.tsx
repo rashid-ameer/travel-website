@@ -8,7 +8,7 @@ function StyledTitle({ children }: StyledTitleProps) {
   return (
     <div>
       <Image
-        className="translate-y-3"
+        className="translate-y-1"
         src="images/camp.svg"
         alt=""
         width={50}
