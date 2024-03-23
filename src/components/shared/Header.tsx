@@ -18,6 +18,7 @@ function Header() {
           alt="HiLink."
           width={72}
           height={20}
+          priority={true}
         />
       </a>
       {/* navbar */}

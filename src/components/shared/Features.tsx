@@ -26,6 +26,7 @@ function Features() {
             alt=""
             width={428}
             height={815}
+            loading="lazy"
           />
         </div>
 

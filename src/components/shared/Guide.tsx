@@ -27,6 +27,7 @@ function Guide() {
           alt="boat"
           width={1000}
           height={380}
+          loading="lazy"
         />
         <div className="flex pl-5 pr-7 py-8 rounded-xl gap-4 bg-white absolute md:left-[5%] lg:top-20 border shadow-[0_0_10px_rgba(0,0,0,0.2)]">
           <Image
