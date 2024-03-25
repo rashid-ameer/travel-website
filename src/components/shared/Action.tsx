@@ -5,8 +5,8 @@ import Image from "next/image";
 
 function Action() {
   return (
-    <section className="py-10 2xl:container get-app-pattern 2xl:rounded-[40px] overflow-hidden">
-      <div className="flex items-center container 2xl:px-0 max-h-[598px]">
+    <section className="max-container py-10 xl:py-16 get-app-pattern 2xl:rounded-40x overflow-hidden">
+      <div className="px-6 lg:px-12 xl:px-16 2xl:px-24 flex items-center max-h-[598px]">
         <div className="space-y-5 flex-1">
           <h2 className="text-5xl lg:text-7xl lg:max-w-sm font-bold text-white">Get for free now!</h2>
           <p className="text-gray-200 lg:text-xl">Available on iOS and Andriod</p>

@@ -10,7 +10,7 @@ function Header() {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
   return (
-    <header className="container flex items-center justify-between py-4">
+    <header className="max-container container-pad flex items-center justify-between py-4">
       {/* header left side */}
       <a href="/">
         <Image

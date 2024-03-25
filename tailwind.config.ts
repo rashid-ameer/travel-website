@@ -49,9 +49,8 @@ const config = {
       "8xl": ["5.5rem", "1.2"],
     },
     extend: {
-      screens: {
-        "2xl": "1400px",
-      },
+      borderRadius: { "40x": "40px" },
+      screens: { "2xl": "1400px" },
       keyframes: {
         "accordion-down": {
           from: { height: "0" },

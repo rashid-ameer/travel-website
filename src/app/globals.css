@@ -29,4 +29,18 @@
     -ms-overflow-style: none; /* IE and Edge */
     scrollbar-width: none; /* Firefox */
   }
+
+  .max-container {
+    @apply mx-auto max-w-screen-2xl;
+  }
+
+  .container-pad {
+    @apply px-6 lg:px-12 xl:px-16;
+  }
+
+  @media (min-width: 1500px) {
+    .container-pad {
+      @apply px-0;
+    }
+  }
 }

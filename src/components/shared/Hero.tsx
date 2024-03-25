@@ -7,14 +7,14 @@ import StyledTitle from "./StyledTitle";
 
 function Hero() {
   return (
-    <div className="container flex flex-col xl:flex-row gap-24 py-10 items-stretch overflow-hidden relative hero-map">
+    <div className="max-container container-pad flex flex-col xl:flex-row gap-24 py-10 xl:py-16 items-stretch overflow-hidden relative hero-map">
       {/* hero left section */}
       <div className="flex-1 py-5 space-y-5">
         <StyledTitle>
           <h1 className="text-6xl font-bold xl:text-7xl 2xl:text-8xl text-dark">Putuk Truno Camp Area</h1>
         </StyledTitle>
 
-        <p className="text-gray-400 text-lg">
+        <p className="text-gray-400 text-lg 2xl:text-xl">
           We want to be on each of your journeys seeking the satisfaction of seeing the incorruptible beauty of nature.
           We can help you on an adventure around the world in just one app
         </p>

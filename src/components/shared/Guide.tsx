@@ -3,8 +3,8 @@ import StyledTitle from "./StyledTitle";
 
 function Guide() {
   return (
-    <section className="py-10">
-      <div className="container">
+    <section className="py-10 xl:py-16">
+      <div className="max-container container-pad">
         <StyledTitle>
           <p className="uppercase text-green-100 text-lg xl:text-xl">We are here for you</p>
         </StyledTitle>
@@ -20,9 +20,9 @@ function Guide() {
         </div>
       </div>
 
-      <div className="flex items-center justify-center relative mt-20 2xl:container">
+      <div className="flex items-center justify-center relative mt-20 max-container">
         <Image
-          className="w-full object-center object-cover 2xl:rounded-2xl"
+          className="w-full object-center object-cover 2xl:rounded-40x"
           src="/images/boat.png"
           alt="boat"
           width={1000}

@@ -16,12 +16,12 @@ function Features() {
   };
 
   return (
-    <section className="container py-10 bg-no-repeat bg-center feature-pattern relative">
-      <div className="flex gap-6 items-center">
+    <section className="max-container py-10 xl:py-16 bg-no-repeat bg-center feature-pattern relative">
+      <div className="flex gap-6 items-center justify-end">
         {/* left side image */}
         <div className="hidden xl:block w-[428px]">
           <Image
-            className="rotate-12 relative -left-[20%]"
+            className="rotate-12 relative -left-[20%] 2xl:-left-[10%]"
             src="/images/phone.png"
             alt=""
             width={428}
@@ -31,7 +31,7 @@ function Features() {
         </div>
 
         {/* right side content */}
-        <div className="flex-1">
+        <div className="w-[60%]">
           <StyledTitle>
             <h2 className="text-3xl xl:text-4xl font-bold text-dark">Our Features</h2>
           </StyledTitle>
