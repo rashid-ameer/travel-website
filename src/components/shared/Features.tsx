@@ -16,7 +16,7 @@ function Features() {
   };
 
   return (
-    <section className="max-container py-10 xl:py-16 bg-no-repeat bg-center feature-pattern relative">
+    <section className="max-container container-pad py-10 xl:py-16 bg-no-repeat bg-center feature-pattern relative">
       <div className="flex gap-6 items-center justify-end">
         {/* left side image */}
         <div className="hidden xl:block w-[428px]">
