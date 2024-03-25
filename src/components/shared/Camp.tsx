@@ -12,7 +12,7 @@ function Camp() {
           />
         ))}
       </div>
-      <div className=" bg-green-100 p-10 mx-6 rounded-2xl lg:max-w-lg lg:absolute lg:-bottom-0 lg:right-6">
+      <div className=" bg-green-100 p-5 lg:p-10 mx-6 mt-10 rounded-2xl lg:max-w-lg lg:absolute lg:-bottom-0 lg:right-6">
         <h2 className="text-2xl text-white">
           <strong>Feeling Lost</strong> And Not Knowing The Way?
         </h2>
