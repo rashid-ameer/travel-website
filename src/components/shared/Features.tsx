@@ -31,7 +31,7 @@ function Features() {
         </div>
 
         {/* right side content */}
-        <div className="w-[60%]">
+        <div className="xl:w-[60%]">
           <StyledTitle>
             <h2 className="text-3xl xl:text-4xl font-bold text-dark">Our Features</h2>
           </StyledTitle>
